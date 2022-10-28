@@ -126,6 +126,7 @@
           $('#item_description').val(data.item_description);
           $('#value').val(data.value);
           $('#payment_method').val(data.payment_method);
+          $('#sale_id').val(sale_id);
       })
    });
     $('body').on('click', '.delete-post', function () {
